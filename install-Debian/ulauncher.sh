@@ -4,7 +4,7 @@ gpg --export 0xfaf1020699503176 | sudo tee /usr/share/keyrings/ulauncher-archive
 echo "deb [signed-by=/usr/share/keyrings/ulauncher-archive-keyring.gpg] \
           http://ppa.launchpad.net/agornostal/ulauncher/ubuntu jammy main" \
           | sudo tee /etc/apt/sources.list.d/ulauncher-jammy.list
-sudo apt update && sudo apt install ulauncher
+sudo apt update && sudo apt install -y ulauncher
 
 # Start ulauncher to have it populate config before we overwrite
 mkdir -p ~/.config/autostart/
