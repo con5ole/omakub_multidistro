@@ -21,12 +21,10 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Run installers
 
 if [[ $distro == "Debian" ]] then
-gum confirm "Run for Debian?" &&
-do
-# needed for add-apt-repository
 sudo apt-get install -y build-essential software-properties-common libssl-dev libffi-dev
+gum confirm "Run for Debian?" &&
+# needed for add-apt-repository
 for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
-done
 fi
 
 if [[ $distro == "Ubuntu" ]] then
