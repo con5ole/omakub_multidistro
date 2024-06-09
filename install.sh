@@ -1,5 +1,5 @@
 #Get distro
-distro=$(./distrocheck.sh)
+distro=$(~/.local/share/omakub/distrocheck.sh)
 # Be fancy
 source ~/.local/share/omakub/ascii.sh
 
