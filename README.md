@@ -1,5 +1,5 @@
 # Omakub_multidistro
-The aim of this fork is to add support for multiple distros to Omakub with as little effort and changes as possible
+The aim of this fork is to add support for multiple distros to Omakub with as little effort and as few changes as possible
 
 # Omakub
 
