@@ -7,9 +7,8 @@ Current status: Debian support in progress and provides most of the creature com
 
 There are some notable missing parts:
 
-- Ruby fails to install
 - Typora is disabled on purpose for now
-- Alacritty is an older version than the one in ubuntu and doesn't seem to launch zellij by default (can be launched manually)
+- Alacritty is an older version than the one in ubuntu and doesn't seem to launch zellij by default (zellij can be launched manually from alacritty however)
 - neovim also uses an older version that complains about some configs
 
 
