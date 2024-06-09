@@ -1,9 +1,11 @@
 # Omakub_multidistro
-The aim of this fork is to add support for multiple distros to Omakub with as little effort and as few changes as possible
+The aim of this fork is to add support for multiple distros to Omakub with as little effort and as few changes as possible.
 
-Current status: Debian support in progress and seems to be mostly working
+This is a work in progress which might ruin your installation when run. Use at your own risk.
 
-When running Debian Stable there are some notable missing parts:
+Current status: Debian support in progress and provides most of the creature comforts of the Ubuntu version when run from a base bookworm install.
+
+There are some notable missing parts:
 
 - Ruby fails to install
 - Typora is disabled on purpose for now
@@ -12,7 +14,7 @@ When running Debian Stable there are some notable missing parts:
 
 
 
-To test the work in progress - which might ruin your installation, you bear the full responsibility for any consequences yourself - you can run the following command:
+To test the work in progress - again, at your own risk - you can run the following command:
 
 wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/develop/install_md_develop.sh | bash
 
