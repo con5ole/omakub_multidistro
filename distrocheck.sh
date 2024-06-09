@@ -13,4 +13,4 @@ if [[ "$line" =~ "Ubuntu" ]]; then
     break;
   fi
 
-done < /etc/*-release
+done < /etc/os-release
