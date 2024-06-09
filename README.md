@@ -8,7 +8,9 @@ When running Debian Stable there are some notable missing parts:
 - Ruby fails to install
 - Typora is disabled on purpose for now
 - Alacritty is an older version than the one in ubuntu and doesn't seem to launch zellij by default (can be launched manually)
-- neovim also an older version
+- neovim also uses an older version that complains about some configs
+
+
 
 To test the work in progress - which might ruin your installation, you bear the full responsibility for any consequences yourself - you can run the following command:
 
