@@ -18,6 +18,7 @@ To test the work in progress - again, at your own risk - you can run the followi
 
 wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/develop/install_md_develop.sh | bash
 
+The original readme from omakub follows.
 
 # Omakub
 
