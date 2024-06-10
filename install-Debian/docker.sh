@@ -1,6 +1,7 @@
 #Get distro
 distro=$(~/.local/share/omakub/distrocheck.sh)
-if [[ $distro == "Debian" ]] then
+if [[ $distro == "Debian" ]]
+then
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -19,7 +20,8 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 docker buildx install
 fi
 
-if [[ $distro == "Ubuntu" ]] then
+if [[ $distro == "Ubuntu" ]]
+then
 sudo apt install -y docker.io docker-buildx
 fi
 
