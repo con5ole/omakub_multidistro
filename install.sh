@@ -32,8 +32,8 @@ gum confirm "Run for ubuntu?" &&
 for script in ~/.local/share/omakub/install-Ubuntu/*.sh; do source $script; done
 fi
 if [[ $distro == "" ]] then
-gum confirm "Run for unknown distro?" &&
-for script in ~/.local/share/omakub/install/*.sh; do source $script; done
+gum confirm "Run Debian path for unknown distro?" &&
+for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
 fi
 
 # Upgrade everything that might ask for a reboot last
