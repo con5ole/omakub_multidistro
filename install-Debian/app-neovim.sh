@@ -1,5 +1,9 @@
-#sudo add-apt-repository -y ppa:neovim-ppa/stable
-#sudo apt update
+distro=$(~/.local/share/omakub/distrocheck.sh)
+if [[ $distro == "Ubuntu" ]]
+then
+sudo add-apt-repository -y ppa:neovim-ppa/stable
+sudo apt update
+fi
 sudo apt install -y neovim
 
 if [ ! -d "$HOME/.config/nvim" ]; then
