@@ -8,7 +8,8 @@ do
     echo "Debian"
     break;
     fi
-if [[ "$line" =~ "Ubuntu" || "$line" =~ "Pop!_OS" ]]; then
+if [[ "$line" =~ "Ubuntu" || "$line" =~ "Pop!_OS" ]];
+then
     echo "Ubuntu"
     break;
   fi
