@@ -12,7 +12,6 @@ There are some notable missing parts:
 - neovim also uses an older version that complains about some configs
 
 
-
 To test the work in progress - again, at your own risk - you can run the following command:
 
 wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/release/install_md.sh | bash
