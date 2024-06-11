@@ -1,18 +1,18 @@
 # Omakub_multidistro
-The aim of this fork is to add support for multiple distros to Omakub with as little effort and as few changes as possible.
+The aim of this fork is to ~~ add support for multiple distros to Omakub with as little effort and as few changes as possible. ~~ have as much as possible of Omkaub work on Debian stable, with the hope that support for Debian Stable makes support for more modern distros easier to achieve.
 
-This is a work in progress which might ruin your installation when run. Use at your own risk.
+Currently it supports debian 12 fresh install and matches omakub from the date of the fork, 2024-06-09, with a few missing pieces as noted below.
 
-Current status: Debian support in progress and provides most of the creature comforts of the Ubuntu version when run from a base bookworm install.
+Further development is paused for the time being until Omakub reaches it's intended state for Ubuntu.
 
 There are some notable missing parts:
 
 - Typora is disabled on purpose for now
-- Alacritty is an older version than the one in ubuntu and doesn't seem to launch zellij by default (zellij can be launched manually from alacritty however)
-- neovim also uses an older version that complains about some configs
+- Alacritty is an older version than the one in ubuntu and  ~~doesn't seem to launch zellij by default (zellij can be launched manually from alacritty however) ~~ uses the older config file format.
+- neovim also uses an older version  ~~that complains about some configs ~~ and doesn't use the Omakub configs.
 
 
-To test the work in progress - again, at your own risk - you can run the following command:
+To test the work in progress - again, at your own risk and only on a fresh install of debian 12 - you can run the following command:
 
 wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/release/install_md.sh | bash
 
