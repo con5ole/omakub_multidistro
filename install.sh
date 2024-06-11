@@ -20,7 +20,7 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Run installers
 
 
-sudo apt-get install -y build-essential software-properties-common libssl-dev libffi-dev
+sudo apt-get install -y build-essential software-properties-common libssl-dev libffi-dev libyaml-dev libzopfli-dev
 gum confirm "Run for Debian?" &&
 for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
 
