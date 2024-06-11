@@ -1,5 +1,5 @@
 # Omakub_multidistro
-The aim of this fork is to ~~add support for multiple distros to Omakub with as little effort and as few changes as possible~~ have as much as possible of Omkaub work on Debian stable, with the hope that support for Debian Stable makes support for more modern distros easier to achieve.
+The aim of this fork is to ~~add support for multiple distros to Omakub with as little effort and as few changes as possible~~ have as much as possible of Omakub work on Debian stable, with the hope that support for Debian Stable makes support for more modern distros easier to achieve.
 
 Currently it supports debian 12 fresh install and matches omakub from the date of the fork, 2024-06-09, with a few missing pieces as noted below.
 
