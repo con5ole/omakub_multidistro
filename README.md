@@ -14,7 +14,7 @@ There are some notable missing parts:
 
 To test the work in progress - again, at your own risk and only on a fresh install of debian 12 - you can run the following command:
 
-wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/release/install_md.sh | bash
+wget -qO- https://raw.githubusercontent.com/con5ole/omakub_multidistro/secondopinion/install_2nd.sh | bash
 
 The original readme from omakub follows.
 
