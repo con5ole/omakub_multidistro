@@ -21,8 +21,6 @@ gsettings set org.gnome.desktop.session idle-delay 0
 
 
 sudo apt-get install -y build-essential software-properties-common libssl-dev libffi-dev libyaml-dev libzopfli-dev
-gum confirm "Run for Debian?" &&
-for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
 
 gum confirm "Add original dhh omakub apps?" &&
 for script in ~/.local/share/omakub/install-Debian/omakase/*.sh; do source $script; done
@@ -36,6 +34,8 @@ for script in ~/.local/share/omakub/install-Debian/webdev/*.sh; do source $scrip
 gum confirm "Add dotnet 8?" &&
 for script in ~/.local/share/omakub/install-Debian/dotnet/*.sh; do source $script; done
 
+
+for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
 
 
 # Upgrade everything that might ask for a reboot last
