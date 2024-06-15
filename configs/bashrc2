@@ -1,0 +1,4 @@
+source ~/.local/share/omakub/defaults/bash/rc2
+
+# Editor used by CLI
+export EDITOR="nano"

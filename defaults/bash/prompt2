@@ -1,0 +1,4 @@
+force_color_prompt=yes
+color_prompt=yes
+
+eval "$(oh-my-posh init bash --config ~/.config/darkmoss.omp.json)"

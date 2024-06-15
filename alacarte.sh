@@ -24,9 +24,11 @@ sudo apt-get install -y build-essential software-properties-common libssl-dev li
 gum confirm "Run for Debian?" &&
 for script in ~/.local/share/omakub/install-Debian/*.sh; do source $script; done
 
-gum confirm "Add original dhh apps" &&
+gum confirm "Add original dhh omakub apps?" &&
 for script in ~/.local/share/omakub/install-Debian/omakase/*.sh; do source $script; done
 
+gum confirm "Add second opinion?" &&
+for script in ~/.local/share/omakub/install-Debian/omakase2/*.sh; do source $script; done
 
 gum confirm "Add webdev (ruby, node)?" &&
 for script in ~/.local/share/omakub/install-Debian/webdev/*.sh; do source $script; done
