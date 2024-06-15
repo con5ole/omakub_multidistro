@@ -1,0 +1,6 @@
+if command -v mise &> /dev/null; then
+  eval "$(mise activate bash)"
+fi
+
+eval "$(zoxide init bash)"
+source /usr/share/doc/fzf/examples/key-bindings.bash
